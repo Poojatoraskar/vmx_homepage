@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.btn_color {
+    background-color: #F58025;
+    color: white;
+    border: none;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* .banner_img{
+    background-image: url(../images/bannerimg.png);
+    background-size: 100%;
+} */
+
+
+
+
+/* logo part */
+.logo img {
+    width: 84px;
+    height: 35px;
+    margin: 22px 50px;
+}
+
+.logo {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #2c2824;
+    opacity: 0.5;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+nav ul li a,
+.logo_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #F58025;
+}
+
+ul.navbarlink>li:not(:last-child) {
+    margin-right: 42px;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 690px;
+    background-image: url(../images/bannerbackground.png);
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+}
+
+.banner-bottom {
+    justify-content: space-between;
+    margin-top: 135px;
+    height: 350px;
+}
+
+/* .banner-bottom  .left_banner{
+    border: 1px solid red;
+} */
+.banner-bottom .left_banner h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-bottom .left_banner button {
+    padding: 15px 40px;
+    margin-top: 40px;
+}
+
+.banner-bottom .right_banner {
+    width: 348px;
+    height: 150px;
+    padding: 20px;
+    align-self: flex-end;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.banner-bottom .right_banner h4 {
+    font-weight: 600;
+    font-size: 16PX;
+    margin-bottom: 10px;
+}
+
+.banner-bottom .right_banner p {
+    margin-top: 10px;
+}
+
+.banner-bottom .right_banner span,
+.banner-bottom .right_banner p {
+    font-size: 14px;
+    color: black;
+}
+
+
+/* emial form part  */
+.info_logo {
+    width: 84px;
+    height: 35px;
+    margin: 20px 50px 22px 50px;
+}
+
+.info_form,
+.inner_info {
+    height: 747px;
+    background: url(../images/blue_background.png);
+    padding-top: 22px;
+}
+
+.inner_info {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left_info {
+    width: 477px;
+    height: 260px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.left_info ul {
+    justify-content: space-between;
+}
+
+.left_info span,
+.left_info ul li a,
+.card_cap {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+
+.left_info input,
+.left_info button {
+    margin: 15px 0px;
+    width: 370px;
+    height: 50px;
+    padding: 10px;
+}
+
+.right_info {
+    width: 748px;
+    height: 585px;
+
+}
+
+.right_info img {
+    width: 100%;
+    height: 585px;
+}
+
+/* inner_country */
+.country {
+    background-color: #FAFBFF;
+}
+
+.inner_country {
+    margin-top: 70px;
+}
+
+.owl_country {
+
+    padding: 30px;
+}
+
+.item_country .card_img {
+    width: 145px;
+    height: 136px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.item_country_inner {
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.item_country .card_img img {
+    width: 85px;
+    height: 85px;
+
+}
+
+/* Style the tab */
+.your_os{
+    background-color: #FBFBFB;
+}
+
+.your_os .tab {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons inside the tab */
+  .your_os .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 22px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .your_os .tab button:hover {
+   color: #f36b03;
+  }
+  
+  /* Create an active/current tablink class */
+  /* .tab button.active {
+    background-color: red;
+  } */
+  
+  /* Style the tab content */
+  .your_os .tabcontent {
+    padding: 6px 12px;
+  }
+  .tabcontent .inner_card_yos{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  .your_os.owl_yos_item {
+    justify-content: space-between; 
+    text-align: center;
+    height: 260px;
+    padding: 20px;  
+}
+.owl_yos_item h5{
+    border-bottom:1px solid  #f36b03;
+    margin-top: 40px;
+}
+.your_os.owl_yos_item p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.owl_yos_item p span{
+    font-size:12px;
+}
+.inner_card_yos{
+    padding: 25px;
+    background-color: #FFFFFF; 
+}
+
+/* new tab slider  */
+/* Style the tab */
+.an_opretingsystem .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+.an_opretingsystem .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+ .an_opretingsystem .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+ .an_opretingsystem .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+.an_opretingsystem .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
